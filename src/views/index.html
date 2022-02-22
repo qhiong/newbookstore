@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新华书店</title>
+    <script src="../js/Index.js" type="module"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../assets/font_dijunszb1m/iconfont.css">
+</head>
+
+<body>
+    <header>
+        <div class="ceil">
+            <div class="center clearFix">
+                <div class="header-left">
+                    <span>下午好！</span>
+                    <span>找到中意的书了吗？</span>
+                    <a href="./login.html" class="lo">请登录</a>
+                    <a href="./register.html" class="lo">免费注册</a>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><a href="javascript:void(0)">我的学习</a></li>
+                        <li><a href="javascript:void(0)">个人中心</a></li>
+                        <li><a href="javascript:void(0)">我的订单</a></li>
+                        <li><a href="javascript:void(0)">客户服务</a></li>
+                        <li><a href="javascript:void(0)">手机新华</a></li>
+                        <li><a href="javascript:void(0)" class="exit">退出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="logo_search center clearFix">
+            <div class="logo">
+                <img src="../img/logo.jpg" alt="">
+            </div>
+            <div class="search clearFix">
+                <div class="searchs">
+                    <div class="sea">
+                        <input type="text" placeholder="论中国共产党历史">
+                        <i class="iconfont icon-tubiao111" style="color: #fff;padding-top: 7px;"></i>
+                    </div>
+                    <div class="seali">
+                        <ul class="clearFix">
+                            <li><a href="javascript:void(0)">热门搜索</a></li>
+                            <li><a href="javascript:void(0)">新华定制</a></li>
+                            <li><a href="javascript:void(0)">习近平在福建</a></li>
+                            <li><a href="javascript:void(0)">北京冬奥会</a></li>
+                            <li><a href="javascript:void(0)">故宫里的大怪物</a></li>
+                            <li><a href="javascript:void(0)">贝聿铭全集</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="cart_in">
+                        <div class="count-wrapper">
+                            <a href="./goodCart.html" target="_blank">
+                                <i class="iconfont icon-gouwucheman"></i>
+                                购物车
+                                <span class="count-text">0</span>件
+                                <i class="iconfont icon-xiangyoujiantou"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="center">
+            <div class="nav-left">
+                <div class="all-cata-show">
+                    <i>i</i>
+                    全部商品分类
+                </div>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#">商城首页</a></li>
+                    <li><a href="#">主题出版</a></li>
+                    <li><a href="#">中板书房</a></li>
+                    <li><a href="#">新华优选</a></li>
+                    <li><a href="#">新华制定</a></li>
+                    <li><a href="#">新华惠农</a></li>
+                    <li><a href="#">新华直播</a></li>
+                    <li><a href="#">专业考试</a></li>
+                    <li><a href="#">排行榜</a></li>
+                    <li><a href="#">新时代·新经典</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="center">
+            <div class="con-left clearFix">
+                <div class="ul clearFix">
+                    <div class="parent-category">
+                        <div class="parent">
+                            <div class="hide-cata">
+                                <a href="">文学艺术</a>
+                                <ul class="clearFix">
+                                    <li><a href="./goodsList.html">小说</a></li>
+                                    <li><a href="#">文学</a></li>
+                                    <li><a href="#">艺术</a></li>
+                                    <li><a href="#">传记</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info">
+                                <div class="attach"></div>
+                                <div class="expand-category">
+                                    <div class="cata-se">
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">小说</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">中国小说</a>
+                                                <a href="#">外国小说</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">文学</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">中外文学</a>
+                                                <a href="#">中国文学</a>
+                                                <a href="#">文学理论</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">艺术</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">摄影</a>
+                                                <a href="#">鉴赏收藏</a>
+                                                <a href="#">艺术概论</a>
+                                                <a href="#">音乐舞蹈</a>
+                                                <a href="#">书法篆刻</a>
+                                                <a href="#">戏剧影视</a>
+                                                <a href="#">绘画雕塑</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">传记</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">传记</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">人文社科</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">历史</a></li>
+                                    <li><a href="#">哲学宗教</a></li>
+                                    <li><a href="#">心理</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info">
+                                <div class="attach"></div>
+                                <div class="expand-category">
+                                    <div class="cata-se">
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">历史</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">世界史</a>
+                                                <a href="#">中国史</a>
+                                                <a href="#">考古文物</a>
+                                                <a href="#">史学理论</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">哲学宗教</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">中国哲学</a>
+                                                <a href="#">西方哲学</a>
+                                                <a href="#">哲学总论</a>
+                                                <a href="#">马列著作</a>
+                                                <a href="#">逻辑学</a>
+                                                <a href="#">宗教</a>
+                                                <a href="#">伦理学</a>
+                                                <a href="#">美学</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">法律</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">法律法规</a>
+                                                <a href="#">法学理论</a>
+                                                <a href="#">法律科普</a>
+                                                <a href="#">中国法律</a>
+                                                <a href="#">外国及港澳台法律</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">心理</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">心理学百科</a>
+                                                <a href="#">变态/病态心理学</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">政治军事</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">党政读物</a>
+                                                <a href="#">中国政治</a>
+                                                <a href="#">世界政治</a>
+                                                <a href="#">中国军事</a>
+                                                <a href="#">军事理论</a>
+                                                <a href="#">国际关系</a>
+                                                <a href="#">政治理论</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">社会科学</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">社会科学总论</a>
+                                                <a href="#">社会学</a>
+                                                <a href="#">语言文字</a>
+                                            </div>
+                                        </div>
+                                        <div class="second-cata">
+                                            <div class="second-name">
+                                                <a href="#">文化</a>
+                                            </div>
+                                            <div class="children-name">
+                                                <a href="#">文化理论</a>
+                                                <a href="#">民族/民俗文化</a>
+                                                <a href="#">地域文化</a>
+                                                <a href="#">文化研究与交流</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">少儿童书</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">儿童文学</a></li>
+                                    <li><a href="#">启蒙益智</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">教育考试</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">中小教师</a></li>
+                                    <li><a href="#">外语学习</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">经济金融</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">管理</a></li>
+                                    <li><a href="#">经济</a></li>
+                                    <li><a href="#">金融会计</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">生活休闲</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">烹饪美食</a></li>
+                                    <li><a href="#">育儿早教</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">科学技术</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">工业科技</a></li>
+                                    <li><a href="#">建筑</a></li>
+                                    <li><a href="#">医学</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">电子书</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">电子书</a></li>
+                                    <li><a href="#">电子书</a></li>
+                                    <li><a href="#">电子书</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">食品保健</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">米面杂粮</a></li>
+                                    <li><a href="#">茗茶</a></li>
+                                    <li><a href="#">酒水</a></li>
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">家居/生活用品</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">居家日用</a></li>
+                                    <li><a href="#">餐饮用食</a></li>
+                                    <!-- <li><a href="#">家纺布艺</a></li>
+                                <li><a href="#">日常收纳</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">学习用品</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">纸张本册</a></li>
+                                    <li><a href="#">学习工具</a></li>
+                                    <!-- <li><a href="#">书写工具</a></li>
+                                <li><a href="#">书画工具</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">3D数码</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">生活电器</a></li>
+                                    <li><a href="#">厨房电器</a></li>
+                                    <!-- <li><a href="#">影音电器</a></li>
+                                <li><a href="#">个人护理</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                        <div>
+                            <div class="hide-cata">
+                                <a href="">母婴/玩具</a>
+                                <ul class="clearFix">
+                                    <li><a href="#">婴童用品</a></li>
+                                    <li><a href="#">出行用品</a></li>
+                                    <!-- <li><a href="#">手办盲盒</a></li>
+                                <li><a href="#">玩具</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="cateory-info"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con-right">
+                <div class="con-right-top clearFix">
+                    <div class="big" id="big"></div>
+                    <div class="middle" id="middle"></div>
+                    <div class="small1" id="small1"></div>
+                    <div class="small2" id="small2"></div>
+                </div>
+                <div class="con-right-bottom">
+                    <div class="bottom-top clearFix">
+                        <div>
+                            <ul class="clearFix">
+                                <li class="active">本周上新</li>
+                                <li>好书推荐</li>
+                                <li>强国推荐</li>
+                                <li>品牌闪购</li>
+                                <li>文创爆品</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bottom-bottom">
+                        <div class="product-item">
+                            <a href="#" class="product-item-link">
+                                <div class="product-item-image">
+                                    <img src="../img/product1.jpg" alt="">
+                                </div>
+                                <h2 class="product-item-title">扇子的故事:中国传统造物的礼仪与审美</h2>
+                                <p class="product-item-price">
+                                    <span class="discount-price">￥102.80</span>
+                                    <span class="original-price">￥168.00</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="product-item">
+                            <a href="#" class="product-item-link">
+                                <div class="product-item-image">
+                                    <img src="../img/product2.jpg" alt="">
+                                </div>
+                                <h2 class="product-item-title">扇子的故事:中国传统造物的礼仪与审美</h2>
+                                <p class="product-item-price">
+                                    <span class="discount-price">￥102.80</span>
+                                    <span class="original-price">￥168.00</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="product-item">
+                            <a href="#" class="product-item-link">
+                                <div class="product-item-image">
+                                    <img src="../img/product3.jpg" alt="">
+                                </div>
+                                <h2 class="product-item-title">扇子的故事:中国传统造物的礼仪与审美</h2>
+                                <p class="product-item-price">
+                                    <span class="discount-price">￥102.80</span>
+                                    <span class="original-price">￥168.00</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="product-item">
+                            <a href="#" class="product-item-link">
+                                <div class="product-item-image">
+                                    <img src="../img/product4.jpg" alt="">
+                                </div>
+                                <h2 class="product-item-title">扇子的故事:中国传统造物的礼仪与审美</h2>
+                                <p class="product-item-price">
+                                    <span class="discount-price">￥102.80</span>
+                                    <span class="original-price">￥168.00</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="product-item">
+                            <a href="#" class="product-item-link">
+                                <div class="product-item-image">
+                                    <img src="../img/product5.jpg" alt="">
+                                </div>
+                                <h2 class="product-item-title">扇子的故事:中国传统造物的礼仪与审美</h2>
+                                <p class="product-item-price">
+                                    <span class="discount-price">￥102.80</span>
+                                    <span class="original-price">￥168.00</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eve-row">
+                <div class="eve-col-cu" style="width: 1200px;margin-top:20px;">
+                    <div class="image-slide">
+                        <div class="image first">
+                            <a href="#">
+                                <img src="../img/wrapper1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="image first">
+                            <a href="#">
+                                <img src="../img/wrapper2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="image first">
+                            <a href="#">
+                                <img src="../img/wrapper3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="image first">
+                            <a href="#">
+                                <img src="../img/wrapper4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="image last">
+                            <a href="#">
+                                <img src="../img/wrapper5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spec-book clearFix">
+                <div class="spec-row">
+                    <img src="../img/specBooks1.webp" alt="">
+                </div>
+                <div class="spec-row clearFix">
+                    <div class="spec-col-cu clearFix">
+                        <div class="spec-row clearFix">
+                            <div class="spec-col-cu1">
+                                <a href="#">
+                                    <img src="../img/spec1.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="pro-list-content" style="width: 596px;height: 550px;">
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro1.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro2.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro3.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro4.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro5.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                                <div class="pro-item">
+                                    <a href="#">
+                                        <div class="a-image">
+                                            <img src="../img/indexPro6.jpg" alt="">
+                                        </div>
+                                        <h2 class="pro-item-title">恋爱的犀牛</h2>
+                                        <p class="pro-item-p">￥56.00</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-aside">
+                                <div class="pro-aside-row">
+                                    <div class="aside-col-cu">
+                                        <img src="../img/RankingList.webp" alt="">
+                                    </div>
+                                    <div class="aside-col-cu">
+                                        <div class="rank-list-body">
+                                            <ul>
+                                                <li class="item-li js-item-li active">
+                                                    <div class="details">
+                                                        <div class="img">
+                                                            <img src="../img/asideList.jpg" alt="">
+                                                        </div>
+                                                        <div class="author">
+                                                            <p>文本编写组</p>
+                                                        </div>
+                                                        <div class="price">
+                                                            <p>￥28.00</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ranking">1</div>
+                                                    <p class="simple">《党的十九届六中全会〈决议〉学习辅导百问》</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <div class="ranking">2</div>
+                                                    <p class="simple">政治的逻辑 马克思主义政治学原理d</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <div class="ranking">3</div>
+                                                    <p class="simple">半小时漫画中国哲学史</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">4</span>
+                                                    <p class="simple">半小时漫画唐诗</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">5</span>
+                                                    <p class="simple">心理学与沟通技巧</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">6</span>
+                                                    <p class="simple">【公文写作】办公室公文写作（32开平装）</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">7</span>
+                                                    <p class="simple">华为没有秘密(2华为如何用常识塑造伟大)(精)</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">8</span>
+                                                    <p class="simple">科学大王—我爱发明</p>
+                                                </li>
+                                                <li class="item-li">
+                                                    <span class="number">9</span>
+                                                    <p class="simple">儒林外史</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="worth">
+                <div class="worth-top">
+                    <img src="../img/zhidelogo.webp" alt="">
+                </div>
+                <div class="worth-item clearFix">
+                    <div class="worth-back clearFix">
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth1.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">人鉴：资治通鉴的通识智慧</h2>
+                                <p class="worth-price">
+                                    ￥58.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth2.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">沈石溪动物小说鉴赏 （狼王+象王+鹰王+火焰冰+月光...</h2>
+                                <p class="worth-price">
+                                    ￥200.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth3.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">世界国家地理地图+中国国家地理地图</h2>
+                                <p class="worth-price">
+                                    ￥716.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth4.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">【探究经典故事的时代背景，解开隐藏的历史真面貌】童...</h2>
+                                <p class="worth-price">
+                                    ￥55.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth5.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">布谷随行保温电热水杯BG-KS1</h2>
+                                <p class="worth-price">
+                                    ￥199.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth6.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">搜狗出品糖猫词典笔 扫描翻译笔 电子词典离线翻译机 在...</h2>
+                                <p class="worth-price">
+                                    ￥799.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth7.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">陕西历史博物馆国宝系列全国交通互联互通卡</h2>
+                                <p class="worth-price">
+                                    ￥236.90
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth8.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">罗生门(精)/读客经典文库</h2>
+                                <p class="worth-price">
+                                    ￥59.90
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth9.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">纳福杯·牛运当头 福泽安康</h2>
+                                <p class="worth-price">
+                                    ￥138.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth10.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">新疆特级灰枣六星500g*2</h2>
+                                <p class="worth-price">
+                                    ￥36.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth11.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">【国宝的前世今生】国家宝藏 博物馆里的中国史（共4册）</h2>
+                                <p class="worth-price">
+                                    ￥158.00
+                                </p>
+                            </a>
+                        </div>
+                        <div class="worth-items">
+                            <a href="#">
+                                <div class="worth-items-images">
+                                    <img src="../img/worth12.jpg" alt="">
+                                </div>
+                                <h2 class="worth-title">FMJ蓝牙耳机FMJ-Z8</h2>
+                                <p class="worth-price">
+                                    ￥209.00
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="center">
+                <div class="footer-top-item">
+                    <img src="../img/footer1.webp" alt="">
+                </div>
+                <div class="footer-top-item">
+                    <img src="../img/footer2.webp" alt="">
+                </div>
+                <div class="footer-top-item">
+                    <img src="../img/footer3.webp" alt="">
+                </div>
+                <div class="footer-top-item">
+                    <img src="../img/footer4.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="center">
+                <div class="ul clearFix">
+                    <div class="ul-li">
+                        <p>购物指南</p>
+                        <p>购物保障</p>
+                        <p>购物流程</p>
+                        <p>促销说明</p>
+                        <p>联系客服</p>
+                    </div>
+                    <div class="ul-li">
+                        <p>支付方式</p>
+                        <p>网上支付</p>
+                        <p>优惠券支付</p>
+                        <p>扫码支付</p>
+                    </div>
+                    <div class="ul-li">
+                        <p>配送方式</p>
+                        <p>配送运费</p>
+                        <p>商品验收</p>
+                        <p>订单说明</p>
+                    </div>
+                    <div class="ul-li">
+                        <p>售后服务</p>
+                        <p>退换货制度</p>
+                        <p>申请退换货</p>
+                        <p>退款时效</p>
+                    </div>
+                    <div class="ul-li">
+                        <p>新华服务</p>
+                        <p>关于我们</p>
+                        <p>大宗采购</p>
+                        <p>友情链接</p>
+                        <p>新华直播</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <p>京公网安备 11010202007572号 丨 京ICP证 京B2-20171652号 丨 京ICP备16042375号-2</p>
+            <p>出版物经营许可证 新出发 京批字第直200352号 丨 广播电视节目制作经营许可证 （京）字第07439号</p>
+            <p>网视备（京）02021000046-1号</p>
+            <p>营业执照 丨 网络出版服务许可证 （京）字第290号</p>
+            <p>Copyright © 2015 - 2021 新华互联电子商务有限责任公司 版权所有</p>
+            <p>客服热线：4006666505</p>
+            <div class="img-tit">
+                <div class="tit">
+                    <img src="../img/footer11.webp" alt="">
+                    <div class="t-footer">
+                        <span>
+                            网络警察提示您</span>
+                    </div>
+                </div>
+                <div class="tit">
+                    <img src="../img/footer22.webp" alt="">
+                    <div class="t-footer">
+                        <span>
+                            中国互联网举报中心</span>
+                    </div>
+                </div>
+                <div class="tit">
+                    <img src="../img/footer33.webp" alt="">
+                    <div class="t-footer">
+                        <span>
+                            网络举报下载</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

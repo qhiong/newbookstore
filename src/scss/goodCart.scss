@@ -1,0 +1,133 @@
+.cart-table {
+    margin-bottom: 30px;
+
+    .total {
+        margin-bottom: 16px;
+        font-size: 18px;
+        color: #C62E2D;
+    }
+
+    table {
+        background-color: transparent;
+        width: 100%;
+        color: #1e1e1e;
+        border-radius: 4px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid grey;
+
+        thead {
+            background-color: #F5F5F5;
+
+            tr {
+                color: #666;
+                background-color: #F5F5F5;
+
+                th {
+                    padding: 12px 0;
+                    border: 1px solid #ddd;
+                    border-width: 1px 0;
+                    text-align: left;
+                }
+
+                th:nth-child(1) {
+                    padding-left: 12px;
+                    border-width: 1px 0 1px 1px
+                }
+
+                tr {
+                    border-color: #F5F5F5;
+                }
+
+            }
+        }
+
+        img {
+            padding: 0;
+        }
+
+        button {
+            width: 100px;
+            height: 38px;
+            border-color: #F5F5F5;
+            font-size: 12px;
+            color: #666;
+            margin-right: 30px;
+        }
+
+        button:hover {
+            background-color: #C62E2D;
+            color: #fff;
+        }
+    }
+
+    .tfoot {
+        margin-top: 20px;
+        height: 58px;
+        line-height: 34px;
+        background-color: #F5F5F5;
+
+        .tfoot-left {
+            display: inline-block;
+            padding: 0 13px;
+            line-height: 58px;
+            float: left;
+
+            input {
+                height: 16px;
+                width: 16px;
+                border-radius: 2px;
+                margin-right: 8px;
+                background-color: #fff;
+                vertical-align: middle;
+            }
+
+            span {
+                color: #666;
+            }
+        }
+
+        .cart-result {
+            display: inline-block;
+            margin-right: 40px;
+            height: 100%;
+            float: right;
+            vertical-align: top;
+            line-height: 58px;
+
+            &>span {
+                font-size: 12px;
+                margin-right: 20px;
+
+                i {
+                    font-style: normal;
+                    color: #C62E2D;
+                }
+            }
+
+            .total-price {
+                display: inline-block;
+                color: #C62E2D;
+                font-size: 16px;
+
+                span {
+                    width: 95px;
+                    color: #666;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .calculation {
+            width: 140px;
+            height: 58px;
+            display: inline-block;
+            background-color: #bbb;
+            font-size: 16px;
+            float: right;
+            color: #fff;
+            line-height: 58px;
+            text-align: center;
+        }
+    }
+}
